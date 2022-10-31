@@ -10,6 +10,11 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
-
+.idea
+keycloak-config/local.plan
+keycloak-config/.terraform
+keycloak-config/terraform.tfstate
+keycloak-config/.terraform.lock.hcl
+keycloak-config/terraform.tfstate.backup
 # Dependency directories (remove the comment below to include it)
 # vendor/
